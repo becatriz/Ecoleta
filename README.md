@@ -1,8 +1,8 @@
-[![NPM](https://nodejs.org/en/download.png?downloads=true&downloadRank=true&stars=true)](https://nodejs.org/en/download/)
+[![Build Status](https://travis-ci.org/fhinkel/create-download-link.svg?branch=master)](https://nodejs.org/en/download/)
 
-# Ecolaste
+# Ecolagem
 
-Projeto que esta sendo desenvolvido na semana Next Level Week da RocketSeat afim de aprimorar mais os conhecimentos no ecossistema de React e Node.js
+Projeto que esta sendo desenvolvido na semana Next Level Week da RocketSeat. O mesmo tem por objetivo cadastrar pontos de coletas de reciclagem.
 
 # Arquitetura
 
