@@ -1,7 +1,6 @@
-[![Coverage Status](https://nodejs.org/en/download/)]
-(https://nodejs.org/en/download/)
+[![NPM](https://nodejs.org/en/download.png?downloads=true&downloadRank=true&stars=true)](https://nodejs.org/en/download/)
 
-# reciclagem
+# Ecolaste
 
 Projeto que esta sendo desenvolvido na semana Next Level Week da RocketSeat afim de aprimorar mais os conhecimentos no ecossistema de React e Node.js
 
