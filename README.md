@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fhinkel/create-download-link.svg?branch=master)](https://nodejs.org/en/download/)
+[![Node.js](https://travis-ci.org/fhinkel/create-download-link.svg?branch=master)](https://nodejs.org/en/download/)
 
 # Ecolagem
 
