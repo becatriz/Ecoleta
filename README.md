@@ -1,4 +1,5 @@
-[![Coverage Status](https://nodejs.org/en/download/)](https://nodejs.org/en/download/)
+[![Coverage Status](https://nodejs.org/en/download/)]
+(https://nodejs.org/en/download/)
 
 # reciclagem
 
