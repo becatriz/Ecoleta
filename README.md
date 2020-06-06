@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/fhinkel/create-download-link/badge.svg?branch=master)](https://coveralls.io/github/fhinkel/create-download-link?branch=master)
+[![Coverage Status](https://nodejs.org/en/download/)](https://nodejs.org/en/download/)
 
 # reciclagem
 
