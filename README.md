@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/fhinkel/create-download-link.svg?branch=master)](https://nodejs.org/en/download/)</br>
 
-<img src="wallpapers/2560x1080.jpg">
+<img src="wallpapers/app.png">
 
 # Ecoleta
 
