@@ -49,7 +49,7 @@ class PointsController {
 
   async create(request: Request, response: Response) {
     const {
-      nome,
+      name,
       email,
       whatsapp,
       latitude,
@@ -63,7 +63,7 @@ class PointsController {
 
     const point = {
       image: 'https://images.unsplash.com/photo-1565061828011-282424b9ab40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
-      nome,
+      name,
       email,
       whatsapp,
       latitude,
