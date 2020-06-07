@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/fhinkel/create-download-link.svg?branch=master)](https://nodejs.org/en/download/)</br>
 
-<img src="wallpapers/capaEcoleta.png">
+<img src="wallpapers/capaEcoleta.png" style="">
 
 # Ecoleta
 
@@ -13,7 +13,7 @@ Projeto que esta sendo desenvolvido na semana Next Level Week da RocketSeat. O m
 
 A arquitetura desenvolvida durante a semana não foi implementa por completo o conceito de MVC, mas foi separado a camada de abstração de Controllers e Rotas como forma de melhor organizar o código
 
-# Bibliotesca utilizadas
+# Bibliotecas utilizadas
 
 * React Js
 * React Native Js
