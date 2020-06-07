@@ -4,12 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
+!uploads/.gitkeep
 
 # testing
 /coverage
 
+
 # production
 /build
+*.sqlite
 
 # misc
 .DS_Store

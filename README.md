@@ -11,8 +11,7 @@ Projeto que esta sendo desenvolvido na semana Next Level Week da RocketSeat. O m
 
 # Arquitetura
 
-A arquitetura desenvolvida durante a semana não implementa por completo o conceito de MVC, mas foi separa a camada de abstração de Controllers e Rotas</br>
-como forma de melhor organizar o código
+A arquitetura desenvolvida durante a semana não foi implementa por completo o conceito de MVC, mas foi separado a camada de abstração de Controllers e Rotas como forma de melhor organizar o código
 
 # Bibliotesca utilizadas
 
@@ -21,10 +20,19 @@ como forma de melhor organizar o código
 * Node Js
 * Leafletjs
 * React-leaflet
+* Celebrate
 
-# Api Utilizadas
+# Banco de Dados
 
-* API IBGE
+* SQLITE3
+* KnexJS - Query Builder
+
+# Api Externas Utilizadas
+
+* API IBGE - UF e Municipios
+https://servicodados.ibge.gov.br/api/docs/localidades?versao=1
+
+
 
 
 
