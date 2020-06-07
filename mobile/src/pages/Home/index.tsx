@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Feather as Icon} from '@expo/vector-icons'
-import { StyleSheet, Text, View, ImageBackground, Image } from 'react-native';
+import { StyleSheet, Text, View, ImageBackground, Image, TextInput, KeyboardAvoidingView, Platform } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native'
 
 
+
 const Home = () => {
+
+  const [uf, setUf] = useState<string>('');
+  const [city, setCity] = useState<string>('');
+
   const navigation = useNavigation();
 
   function handeleNavigationToPoints(){
-    navigation.navigate('Points')
+    navigation.navigate('Points', {
+      uf,
+      city
+    })
   }
 
   return (
+    <KeyboardAvoidingView 
+    style={{flex: 1}} 
+    behavior={Platform.OS === 'ios' ? "padding" : undefined}>
     <ImageBackground
       source={require('../../assets/home-background.png')}
       style={styles.container}
@@ -20,10 +31,27 @@ const Home = () => {
     >
       <View style={styles.main}>
         <Image source={require('../../assets/logo.png')} />
+        <View>
         <Text style={styles.title}>Seu marketplace de coleta de resíduos</Text>
         <Text style={styles.description}>Ajudamos pessoas a encontrarem pontos de coletas de forma eficiente.</Text>
+        </View>
       </View>
       <View style={styles.footer}>
+        <TextInput 
+        style={styles.input} 
+        value={uf}
+        maxLength={2}
+        autoCapitalize="characters"
+        autoCorrect={false}
+        onChangeText={setUf}
+       placeholder="Digite a UF"
+        ></TextInput>
+        <TextInput 
+        style={styles.input} 
+        value={city}
+        autoCorrect={false}
+        onChangeText={setCity}
+       placeholder="Digite a Cidade"></TextInput>
         <RectButton style={styles.button} onPress={handeleNavigationToPoints}>
           <View style={styles.buttonIcon}>
             <Text>
@@ -36,6 +64,7 @@ const Home = () => {
         </RectButton>
       </View>
     </ImageBackground>
+    </KeyboardAvoidingView>
   );
 }
 
